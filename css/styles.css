@@ -1,0 +1,52 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+    background-image: url("../img/body-img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+p{
+    line-height: 2;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    text-align: center;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+
+hr{
+    text-align: center;
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.all-content{
+    background-color: rgba(234,234,234,0.90);
+    padding: 10px 50px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.header img{
+    width: 100%;
+}
+
+header{
+    margin: 0 auto;
+}
+
+footer{
+    padding-bottom: 10px;
+}
