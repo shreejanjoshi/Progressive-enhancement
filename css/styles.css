@@ -5,18 +5,18 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: Serif font;
+    font-family: Serif;
 }
 p{
     line-height: 2;
     color: #345B63;
-    font-family: Serif font;
+    font-family: Serif;
 }
 
 table{
     line-height: 2;
     color: #345B63;
-    font-family: Serif font;
+    font-family: Serif;
     width: 60%;
     box-shadow: 0 2px 15px rgba(64,64,64,.7);
     border-radius: 12px 12px 0 0;
@@ -44,7 +44,7 @@ th{
 li{
     line-height: 2;
     color: #345B63;
-    font-family: Serif font;
+    font-family: Serif;
 }
 
 h1{
@@ -104,11 +104,46 @@ footer{
     color: #01937C;
 }
 
-.green.cap{
+.good{
     text-transform: capitalize;
     font-style: normal;
+    color: #01937C;
+}
+
+.bad{
+    text-transform: capitalize;
+    font-style: normal;
+    color: #D83A56;
 }
 
 footer{
     text-align: center;
+    font-family: Serif;
+}
+
+a{
+    color: #01937C;
+    text-decoration: none;
+    font-family: Serif;
+    margin: 10px 20px;
+}
+
+a:hover{
+    color: #D83A56;
+}
+
+.chinese-farmer{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.chinese-figure{
+    height: 5%;
+    width: 8%;
+    float: right;
+}
+
+.header h1{
+    background-color: yellow;
 }
