@@ -5,9 +5,46 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: Serif font;
 }
 p{
     line-height: 2;
+    color: #345B63;
+    font-family: Serif font;
+}
+
+table{
+    line-height: 2;
+    color: #345B63;
+    font-family: Serif font;
+    width: 60%;
+    box-shadow: 0 2px 15px rgba(64,64,64,.7);
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 20px;
+}
+
+td , th{
+    padding: 15px 20px;
+    text-align: center;
+}
+
+th{
+    font-weight: 200;
+    text-transform: uppercase;
+
+}
+.grey{
+    background-color: #D1D1D1;
+}
+
+.white{
+    background-color: #eeeeee;
+}
+
+li{
+    line-height: 2;
+    color: #345B63;
+    font-family: Serif font;
 }
 
 h1{
@@ -20,6 +57,14 @@ h1{
 h2{
     font-size: 2.5rem;
     color: #66BFBF;
+    padding-bottom: 10px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: #345B63;
     padding-bottom: 10px;
     font-weight: normal;
 }
@@ -49,4 +94,21 @@ header{
 
 footer{
     padding-bottom: 10px;
+}
+
+.red{
+    color: #D83A56;
+}
+
+.green{
+    color: #01937C;
+}
+
+.green.cap{
+    text-transform: capitalize;
+    font-style: normal;
+}
+
+footer{
+    text-align: center;
 }
